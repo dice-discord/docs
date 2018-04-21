@@ -15,14 +15,10 @@ theme:
 
 copyright: 'Copyright 2018 Jonah Snider'
 
-repo_name: 'pizzafox/dice'
-repo_url: 'https://github.com/pizzafox/dice'
-edit_uri: edit/docs/docs
-
 extra:
   social:
     - type: 'github'
-      link: 'https://github.com/pizzafox/dice'
+      link: 'https://github.com/pizzafox'
 
 markdown_extensions:
   - admonition

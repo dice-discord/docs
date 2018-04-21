@@ -1,0 +1,54 @@
+site_name: Dice
+site_url: https://dice.js.org
+
+theme:
+  name: 'material'
+  custom_dir: theme_modifications
+  palette:
+    primary: 'green'
+    accent: 'green'
+  logo: 'images/logo.png'
+  detailedLogo: 'images/dice.png'
+  favicon: 'images/favicon.png'
+  feature:
+    tabs: true
+
+copyright: 'Copyright 2018 Jonah Snider'
+
+repo_name: 'pizzafox/dice'
+repo_url: 'https://github.com/pizzafox/dice'
+edit_uri: edit/docs/docs
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/pizzafox/dice'
+
+markdown_extensions:
+  - admonition
+
+  - codehilite:
+      guess_lang: false
+
+  - toc:
+      permalink: true
+  - footnotes
+
+  - meta
+
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

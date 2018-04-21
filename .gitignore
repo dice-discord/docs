@@ -1,0 +1,14 @@
+# Built documentation
+site/
+
+# Node.js modules
+node_modules/
+
+# VSCode settings
+.vscode/launch.json
+
+# MacOS file system
+.DS_Store
+
+# Google Cloud
+gcloud/*

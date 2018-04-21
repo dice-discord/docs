@@ -1,2 +1,5 @@
-# dice-docs
-The documentation generator for the Dice Discord bot.
+# Dice Documentation
+
+Documentation for the Dice Discord bot.
+
+> Copyright 2018 Jonah Snider

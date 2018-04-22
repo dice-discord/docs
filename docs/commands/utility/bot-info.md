@@ -11,10 +11,8 @@ Information about Dice.
 
 ## Aliases
 
-* `github`
 * `uptime`
 * `library`
-* `git`
 * `lib`
 * `version`
 * `bot`

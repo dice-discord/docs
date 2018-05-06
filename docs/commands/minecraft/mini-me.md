@@ -1,7 +1,5 @@
 title: Mini me
 description: Shows a 'mini-me' of a Minecraft user's body with an option for a transparent background or gradient.
-path: tree/master/commands/minecraft
-source: mini-me.js
 
 # Mini me
 

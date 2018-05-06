@@ -1,7 +1,5 @@
 title: Face
 description: Shows a front view of a Minecraft user's face.
-path: tree/master/commands/minecraft
-source: face.js
 
 # Face
 

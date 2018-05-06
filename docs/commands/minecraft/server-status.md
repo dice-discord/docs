@@ -1,7 +1,5 @@
 title: Server status
 description: Get information about a Minecraft server.
-path: tree/master/commands/minecraft
-source: server-status.js
 
 # Server status
 

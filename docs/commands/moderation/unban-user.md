@@ -1,7 +1,5 @@
 title: Unban user
 description: Unban a user from a server.
-path: tree/master/commands/mod
-source: unban-user.js
 
 # Unban user
 

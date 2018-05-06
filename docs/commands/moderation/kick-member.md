@@ -1,7 +1,5 @@
 title: Kick member
 description: Kick a member from your server.
-path: tree/master/commands/mod
-source: kick-member.js
 
 # Kick member
 

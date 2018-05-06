@@ -1,7 +1,5 @@
 title: Bulk delete messages
 description: Bulk delete messages in a text channel.
-path: tree/master/commands/mod
-source: bulk-delete-messages.js
 
 # Bulk delete messages
 

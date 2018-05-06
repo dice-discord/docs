@@ -1,7 +1,5 @@
 title: Simulate game
 description: Simulate a round of the betting game.
-path: tree/master/commands/games
-source: simulate-game.js
 
 # Simulate game
 

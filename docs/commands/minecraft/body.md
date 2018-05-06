@@ -1,7 +1,5 @@
 title: Body
 description: Shows a Minecraft user's body.
-path: tree/master/commands/minecraft
-source: body.js
 
 # Body
 

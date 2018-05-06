@@ -1,7 +1,5 @@
 title: Transfer
 description: Transfer oats to another user.
-path: tree/master/commands/economy
-source: transfer.js
 
 # Transfer
 

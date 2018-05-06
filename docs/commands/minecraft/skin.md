@@ -1,7 +1,5 @@
 title: Skin
 description: Get the skin of a Minecraft user.
-path: tree/master/commands/minecraft
-source: skin.js
 
 # Skin
 

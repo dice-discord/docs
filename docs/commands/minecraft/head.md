@@ -1,7 +1,5 @@
 title: Head
 description: Shows an isometric view of a Minecraft user's head.
-path: tree/master/commands/minecraft
-source: head.js
 
 # Head
 

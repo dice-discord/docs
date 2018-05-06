@@ -1,7 +1,5 @@
 title: Date facts
 description: Get a fact about a date.
-path: tree/master/commands/fun
-source: date-facts.js
 
 # Date facts
 

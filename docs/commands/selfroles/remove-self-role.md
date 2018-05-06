@@ -1,7 +1,5 @@
 title: Remove self role
 description: Remove a self-assigned role from yourself.
-path: tree/master/commands/selfroles
-source: remove-self-role.js
 
 # Remove self role
 

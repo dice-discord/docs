@@ -1,7 +1,5 @@
 title: Game calculator
 description: Calculate the odds of winning a round of the betting game.
-path: tree/master/commands/games
-source: game-calculator.js
 
 # Game calculator
 

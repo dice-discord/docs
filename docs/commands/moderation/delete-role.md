@@ -1,7 +1,5 @@
 title: Delete role
 description: Delete a role from a server.
-path: tree/master/commands/mod
-source: delete-role.js
 
 # Delete role
 

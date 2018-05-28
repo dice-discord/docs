@@ -23,6 +23,8 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/pizzafox/dice-docs'
+    - type: 'money'
+      link: 'https://www.patreon.com/pizzafox'
 
 markdown_extensions:
   - admonition

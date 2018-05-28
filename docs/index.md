@@ -3,7 +3,7 @@ description: A general purpose utility bot, with an economy, video game stats, m
 
 # Dice <small>documentation</small>
 
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/pizzafox) ![Status](https://discordbots.org/api/widget/status/388191157869477888.svg?noavatar=true) ![Servers](https://discordbots.org/api/widget/servers/388191157869477888.svg?noavatar=true) ![Library](https://discordbots.org/api/widget/lib/388191157869477888.svg?noavatar=true) ![Upvotes](https://discordbots.org/api/widget/upvotes/388191157869477888.svg?noavatar=true)
+<a href="https://www.patreon.com/bePatron?u=6109069" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script> ![Status](https://discordbots.org/api/widget/status/388191157869477888.svg?noavatar=true) ![Servers](https://discordbots.org/api/widget/servers/388191157869477888.svg?noavatar=true) ![Library](https://discordbots.org/api/widget/lib/388191157869477888.svg?noavatar=true) ![Upvotes](https://discordbots.org/api/widget/upvotes/388191157869477888.svg?noavatar=true)
 
 ## About
 

@@ -1,7 +1,7 @@
-title: Skin
+title: Get minecraft skin
 description: Get the skin of a Minecraft user.
 
-# Skin
+# Get minecraft skin
 
 ## Description
 
@@ -9,23 +9,22 @@ Get the skin of a Minecraft user.
 
 ## Aliases
 
-* `minecraft-skin`
-* `mc-skin`
-* `minecraftskin`
-* `mcskin`
+* `get-mc-skin`
+* `getminecraftskin`
+* `getmcskin`
 
 ## Usage
 
 ### Format
 
-`skin <username>`
+`get-minecraft-skin <username>`
 
 ### Examples
 
-* `face Notch`
+* `get-minecraft-face Notch`
 
 ### Arguments
 
 | Name     | Type   | Required |
 |----------|--------|----------|
-| Username | Text   | Yes      |
+| Username | String | Yes      |

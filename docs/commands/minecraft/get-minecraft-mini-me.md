@@ -1,7 +1,7 @@
-title: Mini me
+title: Get minecraft mini-me
 description: Shows a 'mini-me' of a Minecraft user's body with an option for a transparent background or gradient.
 
-# Mini me
+# Get Minecraft mini-me
 
 ## Description
 
@@ -12,27 +12,27 @@ Shows a 'mini-me' of a Minecraft user's body with an option for a transparent ba
 * `minecraft-mini-me`
 * `mc-mini-me`
 * `minecraft-mini`
-* `mc-mini`
-* `mini`
-* `minime`
+* `mc-mini-me`
+* `getminecraftminime`
 * `minecraftminime`
 * `mcminime`
 * `minecraftmini`
-* `mcmini`
+* `mcminime`
 
 ## Usage
 
 ### Format
 
-`mini-me <username> [transparency]`
+`get-minecraft-mini-me <username> [transparency]`
 
 ### Examples
 
-* `mini-me Notch`
-* `mini-me Notch false`
+* `get-minecraft-mini-me Notch`
+* `get-minecraft-mini-me Notch false`
 
 ### Arguments
 
-| Name     | Type   | Required |
-|----------|--------|----------|
-| Username | Text   | Yes      |
+| Name  | Type | Required | Minimum | Maximum |
+|-------|------|----------|---------|---------|
+| Username | String |Yes |  |  |
+| Transparency | Boolean |No |  |  |

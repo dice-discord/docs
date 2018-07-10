@@ -20,14 +20,14 @@ Submit bugs and suggestions to the developer.
 
 ### Format
 
-`feedback <userFeedback>`
+`feedback <feedback>`
 
 ### Examples
 
-* `feedback When I use $dice the bot lags.`
+* `feedback When I use $$dice the bot lags.`
 
 ### Arguments
 
-| Name         | Type   | Required |
-|--------------|--------|----------|
-| UserFeedback | Text   | Yes      |
+| Name         | Type | Required | Minimum | Maximum |
+|--------------|------|----------|---------|---------|
+| Feedback | Text | Yes      |         |         |

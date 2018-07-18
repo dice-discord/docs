@@ -61,6 +61,7 @@ Dice is a [Discord](https://discordapp.com) bot. It has lots of features includi
 | [`date-facts`](/commands/fun/date-facts)                                 | Get a fact about a date.                                                                              | Fun             |
 | [`day-facts`](/commands/fun/day-facts)                                   | Get a fact about a day.                                                                               | Fun             |
 | [`number-facts`](/commands/fun/number-facts)                             | Get a fact about a number.                                                                            | Fun             |
+| [`oldest-member`](/commands/fun/oldest-member)                           | See who the oldest member on the server is.                                                           | Fun             |
 | [`random-cat-image`](/commands/fun/random-cat-image)                     | Get a picture of a random cat.                                                                        | Fun             |
 | [`random-dog-image`](/commands/fun/random-dog-image)                     | Get a picture of a random dog.                                                                        | Fun             |
 | [`roll-die`](/commands/fun/roll-die)                                     | Roll a die.                                                                                           | Fun             |

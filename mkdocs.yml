@@ -19,7 +19,11 @@ repo_name: 'pizzafox/dice-docs'
 repo_url: 'https://github.com/pizzafox/dice-docs'
 edit_uri: edit/master/docs
 
+
+
 extra:
+  discord:
+    invite: 'https://discordapp.com/oauth2/authorize?client_id=388191157869477888&permissions=8&scope=bot'
   social:
     - type: 'github'
       link: 'https://github.com/pizzafox/dice-docs'

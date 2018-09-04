@@ -25,6 +25,6 @@ Shows a Minecraft user's body.
 
 ### Arguments
 
-| Name  | Type | Required | Minimum | Maximum |
-|-------|------|----------|---------|---------|
-| Username | String |Yes |  |  |
+| Name     | Type   | Required |
+|----------|--------|----------|
+| Username | String | Yes      |

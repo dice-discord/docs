@@ -30,6 +30,6 @@ Get a self-assigned role from this server.
 
 ### Arguments
 
-| Name  | Type | Required | Minimum | Maximum |
-|-------|------|----------|---------|---------|
-| Role | Role |Yes |  |  |
+| Name | Type | Required |
+|------|------|----------|
+| Role | Role | Yes      |

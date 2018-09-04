@@ -1,4 +1,4 @@
-title: Get minecraft head
+title: Get Minecraft head
 description: Shows an isometric view of a Minecraft user's head.
 
 # Get Minecraft head

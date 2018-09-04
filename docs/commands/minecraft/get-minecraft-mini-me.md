@@ -1,4 +1,4 @@
-title: Get minecraft mini-me
+title: Get Minecraft mini-me
 description: Shows a 'mini-me' of a Minecraft user's body with an option for a transparent background or gradient.
 
 # Get Minecraft mini-me

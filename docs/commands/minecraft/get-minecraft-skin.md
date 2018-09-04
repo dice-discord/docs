@@ -1,7 +1,7 @@
-title: Get minecraft skin
+title: Get Minecraft skin
 description: Get the skin of a Minecraft user.
 
-# Get minecraft skin
+# Get Minecraft skin
 
 ## Description
 

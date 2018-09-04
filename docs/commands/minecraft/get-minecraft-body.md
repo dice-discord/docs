@@ -1,4 +1,4 @@
-title: Get minecraft body
+title: Get Minecraft body
 description: Shows a Minecraft user's body.
 
 # Get Minecraft body

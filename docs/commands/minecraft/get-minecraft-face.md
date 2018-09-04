@@ -1,7 +1,7 @@
-title: Get minecraft face
+title: Get Minecraft face
 description: Shows a front view of a Minecraft user's face.
 
-# Get minecraft face
+# Get Minecraft face
 
 ## Description
 

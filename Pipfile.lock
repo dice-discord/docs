@@ -52,11 +52,11 @@
         },
         "mkdocs": {
             "hashes": [
-                "sha256:50bf14ba9fdef391ae3e416ce66f1c598949d6e9cf2e9d7ed69abe3cf368539a",
-                "sha256:ce8c238231d8df02e9f66390b5ff153f52682326d83cac412d7f44957b704fbb"
+                "sha256:17d34329aad75d5de604b9ed4e31df3a4d235afefdc46ce7b1964fddb2e1e939",
+                "sha256:8cc8b38325456b9e942c981a209eaeb1e9f3f77b493ad755bfef889b9c8d356a"
             ],
             "index": "pypi",
-            "version": "==1.0.3"
+            "version": "==1.0.4"
         },
         "mkdocs-material": {
             "hashes": [

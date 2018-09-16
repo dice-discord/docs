@@ -1,5 +1,7 @@
 title: Random dog image
 description: Get a picture of a random dog.
+path: tree/master/commands/fun
+source: random-dog-image.js
 
 # Random dog image
 

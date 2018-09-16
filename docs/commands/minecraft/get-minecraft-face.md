@@ -1,5 +1,7 @@
 title: Get Minecraft face
 description: Shows a front view of a Minecraft user's face.
+path: tree/master/commands/minecraft
+source: get-minecraft-face.js
 
 # Get Minecraft face
 

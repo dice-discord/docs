@@ -1,5 +1,7 @@
 title: Bible
 description: Get any bible verse from the World English Bible
+path: tree/master/commands/search
+source: bible.js
 
 # Bible
 

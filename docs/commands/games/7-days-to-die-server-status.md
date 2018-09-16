@@ -1,5 +1,7 @@
 title: 7 Days to Die server status
 description: Get information about a 7 Days to Die server.
+path: tree/master/commands/games
+source: 7-days-to-die-server-status.js
 
 # 7 Days to Die server status
 

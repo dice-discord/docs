@@ -1,5 +1,7 @@
 title: Top crypto currencies
 description: Get prices for the top crypto currencies.
+path: tree/master/commands/search
+source: top-crypto-currencies.js
 
 # Top crypto currencies
 

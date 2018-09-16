@@ -1,5 +1,7 @@
 title: Number facts
 description: Get a fact about a number.
+path: tree/master/commands/fun
+source: number-facts.js
 
 # Number facts
 

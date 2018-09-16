@@ -1,5 +1,7 @@
 title: Get Minecraft head
 description: Shows an isometric view of a Minecraft user's head.
+path: tree/master/commands/minecraft
+source: get-minecraft-head.js
 
 # Get Minecraft head
 

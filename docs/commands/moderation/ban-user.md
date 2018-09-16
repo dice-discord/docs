@@ -1,5 +1,7 @@
 title: Ban user
 description: Ban any user from your server.
+path: tree/master/commands/moderation
+source: ban-user.js
 
 # Ban user
 

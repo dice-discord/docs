@@ -1,5 +1,7 @@
 title: Get Minecraft skin
 description: Get the skin of a Minecraft user.
+path: tree/master/commands/minecraft
+source: get-minecraft-skin.js
 
 # Get Minecraft skin
 

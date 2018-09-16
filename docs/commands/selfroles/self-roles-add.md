@@ -1,5 +1,7 @@
 title: Self roles add
 description: Add roles to a server's self roles.
+path: tree/master/commands/selfroles
+source: self-roles-add.js
 
 # Self roles add
 

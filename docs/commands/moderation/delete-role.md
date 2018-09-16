@@ -1,5 +1,9 @@
 title: Delete role
 description: Delete a role from a server.
+path: tree/master/commands/moderation
+source: ban-user.js
+path: tree/master/commands/moderation
+source: delete-role.js
 
 # Delete role
 

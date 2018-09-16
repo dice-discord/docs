@@ -1,5 +1,7 @@
 title: Day facts
 description: Get a fact about a day.
+path: tree/master/commands/fun
+source: day-facts.js
 
 # Day facts
 

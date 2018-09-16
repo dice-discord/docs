@@ -1,5 +1,7 @@
 title: Overwatch statistics
 description: Get statistics of an Overwatch player.
+path: tree/master/commands/games
+source: overwatch-statistics.js
 
 # Overwatch statistics
 

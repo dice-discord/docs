@@ -1,5 +1,7 @@
 title: Insurgency server status
 description: Get information about a Insurgency server.
+path: tree/master/commands/games
+source: insurgency-server-status.js
 
 # Insurgency server status
 

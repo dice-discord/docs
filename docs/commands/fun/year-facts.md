@@ -1,5 +1,7 @@
 title: Year facts
 description: Get a fact about a year.
+path: tree/master/commands/fun
+source: year-facts.js
 
 # Year facts
 

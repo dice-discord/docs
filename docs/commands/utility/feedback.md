@@ -1,5 +1,7 @@
 title: Feedback
 description: Submit bugs and suggestions to the developer.
+path: tree/master/commands/util
+source: feedback.js
 
 # Feedback
 

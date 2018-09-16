@@ -1,5 +1,7 @@
 title: Starbound server status
 description: Get information about a Starbound server.
+path: tree/master/commands/games
+source: starbound-server-status.js
 
 # Starbound server status
 
@@ -31,7 +33,7 @@ Get information about a Starbound server.
 
 ### Arguments
 
-| Name  | Type | Required | Minimum | Maximum |
-|-------|------|----------|---------|---------|
-| Host | String |Yes |  |  |
-| Port | Integer |No | 1 | 65535 |
+| Name | Type    | Required | Minimum | Maximum |
+|------|---------|----------|---------|---------|
+| Host | String  | Yes      |         |         |
+| Port | Integer | No       | 1       | 65535   |

@@ -1,5 +1,7 @@
 title: LMGTFY
 description: Generate a let-me-Google-that-for-you link.
+path: tree/master/commands/search
+source: lmgtfy.js
 
 # LMGTFY
 

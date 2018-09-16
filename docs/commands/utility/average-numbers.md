@@ -1,5 +1,7 @@
 title: Average numbers
 description: Gets the average of several numbers.
+path: tree/master/commands/util
+source: average-numbers.js
 
 # Average numbers
 

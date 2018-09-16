@@ -1,5 +1,7 @@
 title: Look up stock
 description: Get the price of a stock.
+path: tree/master/commands/search
+source: look-up-stock.js
 
 # Look up stock
 

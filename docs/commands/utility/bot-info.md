@@ -1,5 +1,7 @@
 title: Bot info
 description: Information about Dice.
+path: tree/master/commands/util
+source: bot-info.js
 
 # Bot info
 

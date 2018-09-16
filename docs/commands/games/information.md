@@ -1,5 +1,7 @@
 title: Information
 description: Get information on a user.
+path: tree/master/commands/games
+source: information.js
 
 # Information
 

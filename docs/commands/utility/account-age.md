@@ -1,5 +1,7 @@
 title: Account age
 description: Check when an account was created.
+path: tree/master/commands/util
+source: account-age.js
 
 # Account age
 

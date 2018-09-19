@@ -2,3 +2,18 @@
   from = "/invite"
   to = "https://discordapp.com/oauth2/authorize?client_id=388191157869477888&permissions=8&scope=bot"
   status = 301
+
+[[redirects]]
+  from = "/server"
+  to = "https://discord.gg/jTHpDv9"
+  status = 301
+
+[[redirects]]
+  from = "/patreon"
+  to = "https://www.patreon.com/pizzafox"
+  status = 301
+
+[[redirects]]
+  from = "/donate"
+  to = "https://www.patreon.com/pizzafox"
+  status = 301

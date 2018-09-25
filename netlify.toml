@@ -17,3 +17,8 @@
   from = "/donate"
   to = "https://www.patreon.com/pizzafox"
   status = 301
+
+[[redirects]]
+  from = "/vote"
+  to = "https://discordbots.org/bot/388191157869477888/vote"
+  status = 301

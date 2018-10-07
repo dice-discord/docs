@@ -15,8 +15,8 @@ theme:
 
 copyright: 'Copyright 2018 <a href="https://jonahsnider.ninja">Jonah Snider</a>'
 
-repo_name: 'pizzafox/dice-docs'
-repo_url: 'https://github.com/pizzafox/dice-docs'
+repo_name: 'dice-discord/docs'
+repo_url: 'https://github.com/dice-discord/docs'
 edit_uri: edit/master/docs
 
 google_analytics:
@@ -25,12 +25,10 @@ google_analytics:
 
 extra:
   discord:
-    invite: 'https://discordapp.com/oauth2/authorize?client_id=388191157869477888&permissions=8&scope=bot'
+    invite: 'https://dice.js.org/invite'
   social:
     - type: 'github'
-      link: 'https://github.com/pizzafox/dice'
-    - type: 'github'
-      link: 'https://github.com/pizzafox/dice-docs'
+      link: 'https://github.com/dice-discord'
     - type: 'money'
       link: 'https://www.patreon.com/pizzafox'
 

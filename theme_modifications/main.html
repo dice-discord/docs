@@ -42,7 +42,7 @@
   {% set file = page.meta.source %}
   <!-- Dice uses 1 repo for bot code and another for docs -->
   <!-- This hardcodes the bot code repo while still allowing the edit buttons to work -->
-  <a href="{{ ['https://github.com/pizzafox/dice', path, file] | join('/') }}"
+  <a href="{{ ['https://github.com/dice-discord/bot', path, file] | join('/') }}"
       title="{{ file }}" class="md-source-file">
     {{ file }}
   </a>

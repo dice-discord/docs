@@ -29,4 +29,4 @@ Get the skin of a Minecraft user.
 
 | Name     | Type   | Required |
 |----------|--------|----------|
-| Username | String | Yes      |
+| Username | Text | Yes      |

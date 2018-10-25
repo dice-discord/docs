@@ -49,5 +49,5 @@ Get information about a Counter-Strike Global Offensive server.
 
 | Name | Type    | Required | Minimum | Maximum |
 |------|---------|----------|---------|---------|
-| Host | String  | Yes      |         |         |
+| Host | Text  | Yes      |         |         |
 | Port | Integer | No       | 1       | 65535   |

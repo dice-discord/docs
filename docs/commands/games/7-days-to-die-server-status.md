@@ -39,5 +39,5 @@ Get information about a 7 Days to Die server.
 
 | Name  | Type | Required | Minimum | Maximum |
 |-------|------|----------|---------|---------|
-| Host | String |Yes |  |  |
+| Host | Text |Yes |  |  |
 | Port | Integer |No | 1 | 65535 |

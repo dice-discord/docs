@@ -29,4 +29,4 @@ Shows a front view of a Minecraft user's face.
 
 | Name     | Type   | Required |
 |----------|--------|----------|
-| Username | String | Yes      |
+| Username | Text | Yes      |

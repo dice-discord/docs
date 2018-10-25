@@ -29,4 +29,4 @@ Shows a Minecraft user's body.
 
 | Name     | Type   | Required |
 |----------|--------|----------|
-| Username | String | Yes      |
+| Username | Text | Yes      |

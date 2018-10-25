@@ -36,5 +36,5 @@ Shows a 'mini-me' of a Minecraft user's body with an option for a transparent ba
 
 | Name         | Type       | Required |
 |--------------|------------|----------|
-| Username     | String     | Yes      |
+| Username     | Text     | Yes      |
 | Transparency | True/False | No       |

@@ -63,6 +63,7 @@ Dice is a [Discord](https://discordapp.com) bot. It has lots of features includi
 | [`insurgency-server-status`](/commands/games/insurgency-server-status)       | Get information about a Insurgency server.                                                            | Games           |
 | [`overwatch-statistics`](/commands/games/overwatch-statistics)               | Get statistics of an Overwatch player.                                                                | Games           |
 | [`russian-roulette`](/commands/games/russian-roulette)                       | Play a game of Russian roulette.                                                                      | Games           |
+| [`rust-server-status`](/commands/games/rust-server-status)                   | Get information about a Rust Server                                                                   | Games           |
 | [`simulate-game`](/commands/games/simulate-game)                             | Simulate a round of the betting game.                                                                 | Games           |
 | [`starbound-server-status`](/commands/games/starbound-server-status)         | Get information about a Starbound server.                                                             | Games           |
 | [`date-facts`](/commands/fun/date-facts)                                     | Get a fact about a date.                                                                              | Fun             |
@@ -98,6 +99,7 @@ Dice is a [Discord](https://discordapp.com) bot. It has lots of features includi
 | [`base64`](/commands/developer/base64)                                       | Converts text to and from Base64 encoding.                                                            | Developer       |
 | [`color`](/commands/developer/color)                                         | Display and convert a color.                                                                          | Developer       |
 | [`database-ping`](/commands/developer/database-ping)                         | Checks the bot's ping to the Discord server and does a database request.                              | Developer       |
+| [`shard`](/commands/developer/shard)                                         | Get info about this shard.                                                                            | Developer       |
 | [`groups`](/commands/commands/groups)                                        | Lists all command groups.                                                                             | Commands        |
 | [`enable`](/commands/commands/enable)                                        | Enables a command or command group.                                                                   | Commands        |
 | [`disable`](/commands/commands/disable)                                      | Disables a command or command group.                                                                  | Commands        |

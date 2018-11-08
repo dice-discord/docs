@@ -1,6 +1,6 @@
 title: CS:GO server status
 description: Get information about a Counter-Strike Global Offensive server.
-path: tree/master/commands/games
+path: tree/master/src/commands/games
 source: csgo-server-status.js
 
 # CS:GO server status

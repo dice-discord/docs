@@ -1,6 +1,6 @@
 title: Get self role
 description: Get a self-assigned role from this server.
-path: tree/master/commands/selfroles
+path: tree/master/src/commands/selfroles
 source: get-self-role.js
 
 # Get self role

@@ -1,6 +1,6 @@
 title: Command
 description: Description
-path: tree/master/commands/CATEGORY
+path: tree/master/src/commands/CATEGORY
 source: command.js
 
 <!-- >

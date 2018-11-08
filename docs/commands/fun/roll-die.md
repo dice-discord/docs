@@ -1,6 +1,6 @@
 title: Roll die
 description: Roll a die.
-path: tree/master/commands/fun
+path: tree/master/src/commands/fun
 source: roll-die.js
 
 # Roll die

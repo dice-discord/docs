@@ -1,6 +1,6 @@
 title: Oldest member
 description: See who the oldest member on the server is.
-path: tree/master/commands/fun
+path: tree/master/src/commands/fun
 source: oldest-member.js
 
 # Oldest member

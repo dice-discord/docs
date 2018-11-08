@@ -1,6 +1,6 @@
 title: Statistics
 description: Get statistics on Dice.
-path: tree/master/commands/util
+path: tree/master/src/commands/util
 source: statistics.js
 
 # Statistics

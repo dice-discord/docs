@@ -1,6 +1,6 @@
 title: Quote message
 description: Quote a message from a server.
-path: tree/master/commands/util
+path: tree/master/src/commands/util
 source: quote-message.js
 
 # Quote message

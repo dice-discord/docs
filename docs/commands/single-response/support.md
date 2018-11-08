@@ -1,6 +1,6 @@
 title: Support
 description: An invite to the Dice server.
-path: tree/master/commands/single
+path: tree/master/src/commands/single
 source: support.js
 
 # Support

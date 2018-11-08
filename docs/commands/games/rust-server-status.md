@@ -1,6 +1,6 @@
 title: Rust server status
 description: Get information about a Rust Server
-path: tree/master/commands/games
+path: tree/master/src/commands/games
 source: rust-server-status.js
 
 # Rust server status

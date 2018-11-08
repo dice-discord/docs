@@ -1,6 +1,6 @@
 title: Starbound server status
 description: Get information about a Starbound server.
-path: tree/master/commands/games
+path: tree/master/src/commands/games
 source: starbound-server-status.js
 
 # Starbound server status

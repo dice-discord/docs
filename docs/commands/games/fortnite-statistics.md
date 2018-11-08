@@ -1,6 +1,6 @@
 title: Fortnite statistics
 description: Get statistics of a Fortnite player.
-path: tree/master/commands/games
+path: tree/master/src/commands/games
 source: fortnite-statistics.js
 
 # Fortnite statistics

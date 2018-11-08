@@ -1,6 +1,6 @@
 title: Feedback
 description: Submit bugs and suggestions to the developer.
-path: tree/master/commands/util
+path: tree/master/src/commands/util
 source: feedback.js
 
 # Feedback

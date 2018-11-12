@@ -1,6 +1,6 @@
 title: Convert oats
 description: Converts oats to another bot's currency
-path: tree/master/commands/economy
+path: tree/master/src/commands/economy
 source: convert-oats.js
 
 # Convert oats

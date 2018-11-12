@@ -1,6 +1,6 @@
 title: XKCD
 description: Get an XKCD comic.
-path: tree/master/commands/fun
+path: tree/master/src/commands/fun
 source: xkcd.js
 
 # XKCD

@@ -1,6 +1,6 @@
 title: Get Minecraft body
 description: Shows a Minecraft user's body.
-path: tree/master/commands/minecraft
+path: tree/master/src/commands/minecraft
 source: get-minecraft-body.js
 
 # Get Minecraft body

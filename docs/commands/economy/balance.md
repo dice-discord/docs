@@ -1,6 +1,6 @@
 title: Balance
 description: Check a user's balance.
-path: tree/master/commands/economy
+path: tree/master/src/commands/economy
 source: balance.js
 
 # Balance

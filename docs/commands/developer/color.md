@@ -1,6 +1,6 @@
 title: Color
 description: Display and convert a color.
-path: tree/master/commands/developer
+path: tree/master/src/commands/developer
 source: color.js
 
 # Color

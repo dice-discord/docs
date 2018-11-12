@@ -1,6 +1,6 @@
 title: Garrys mod server status
 description: Get information about a Garry's Mod server.
-path: tree/master/commands/games
+path: tree/master/src/commands/games
 source: garrys-mod-server-status.js
 
 # Garrys mod server status

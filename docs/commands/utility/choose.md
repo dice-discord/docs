@@ -1,6 +1,6 @@
 title: Choose
 description: Choose an item from a list you provide.
-path: tree/master/commands/util
+path: tree/master/src/commands/util
 source: choose.js
 
 # Choose

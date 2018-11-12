@@ -1,6 +1,6 @@
 title: Russian roulette
 description: Play a game of Russian roulette.
-path: tree/master/commands/games
+path: tree/master/src/commands/games
 source: russian-roulette.js
 
 # Russian roulette

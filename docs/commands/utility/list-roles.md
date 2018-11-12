@@ -1,6 +1,6 @@
 title: List roles
 description: List all roles on a server.
-path: tree/master/commands/util
+path: tree/master/src/commands/util
 source: list-roles.js
 
 # List roles

@@ -1,6 +1,6 @@
 title: Base64
 description: Converts text to and from Base64 encoding.
-path: tree/master/commands/developer
+path: tree/master/src/commands/developer
 source: base64.js
 
 # Base64

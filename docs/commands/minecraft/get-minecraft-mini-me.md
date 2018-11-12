@@ -1,6 +1,6 @@
 title: Get Minecraft mini-me
 description: Shows a 'mini-me' of a Minecraft user's body with an option for a transparent background or gradient.
-path: tree/master/commands/minecraft
+path: tree/master/src/commands/minecraft
 source: get-minecraft-mini-me.js
 
 # Get Minecraft mini-me

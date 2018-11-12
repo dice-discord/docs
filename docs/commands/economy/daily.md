@@ -1,6 +1,6 @@
 title: Daily
 description: Collect your daily oats.
-path: tree/master/commands/economy
+path: tree/master/src/commands/economy
 source: daily.js
 
 # Daily

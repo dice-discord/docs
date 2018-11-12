@@ -1,6 +1,6 @@
 title: List self roles
 description: List all self-assigned roles from a server.
-path: tree/master/commands/selfroles
+path: tree/master/src/commands/selfroles
 source: list-self-roles.js
 
 # List self roles

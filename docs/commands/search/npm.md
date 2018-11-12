@@ -1,6 +1,6 @@
 title: NPM
 description: Get information about an NPM package
-path: tree/master/commands/search
+path: tree/master/src/commands/search
 source: npm.js
 
 # NPM

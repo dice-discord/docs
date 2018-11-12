@@ -1,12 +1,13 @@
-click==6.7
-Jinja2==2.10
+-i https://pypi.org/simple/
+click==7.0
+jinja2==2.10
 livereload==2.5.2
-Markdown==2.6.11
-MarkupSafe==1.0
+markdown==3.0.1
+markupsafe==1.1.0
+mkdocs-material==3.0.6
 mkdocs==1.0.4
-mkdocs-material==3.0.4
-Pygments==2.2.0
+pygments==2.2.0
 pymdown-extensions==5.0
-PyYAML==3.13
+pyyaml==3.13
 six==1.11.0
-tornado==5.1
+tornado==5.1.1

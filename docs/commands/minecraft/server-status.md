@@ -1,9 +1,9 @@
-title: Minecraft server status
+title: Server status
 description: Get information about a Minecraft server.
 path: tree/master/src/commands/minecraft
-source: get-minecraft-server-status.js
+source: get-server-status.js
 
-# Minecraft server status
+# Server status
 
 ## Description
 

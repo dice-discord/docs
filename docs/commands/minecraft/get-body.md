@@ -1,9 +1,9 @@
-title: Get Minecraft body
+title: Get body
 description: Shows a Minecraft user's body.
 path: tree/master/src/commands/minecraft
-source: get-minecraft-body.js
+source: get-body.js
 
-# Get Minecraft body
+# Get body
 
 ## Description
 
@@ -27,6 +27,6 @@ Shows a Minecraft user's body.
 
 ### Arguments
 
-| Name     | Type   | Required |
-|----------|--------|----------|
+| Name     | Type | Required |
+|----------|------|----------|
 | Username | Text | Yes      |

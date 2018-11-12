@@ -1,9 +1,9 @@
-title: Get Minecraft head
+title: Get head
 description: Shows an isometric view of a Minecraft user's head.
 path: tree/master/src/commands/minecraft
-source: get-minecraft-head.js
+source: get-head.js
 
-# Get Minecraft head
+# Get head
 
 ## Description
 
@@ -27,6 +27,6 @@ Shows an isometric view of a Minecraft user's head.
 
 ### Arguments
 
-| Name     | Type   | Required |
-|----------|--------|----------|
+| Name     | Type | Required |
+|----------|------|----------|
 | Username | Text | Yes      |

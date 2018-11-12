@@ -41,6 +41,7 @@ Dice is a [Discord](https://discordapp.com) bot. It has lots of features includi
 | [`list-roles`](/commands/utility/list-roles)                                 | List all roles on a server.                                                                           | Utility         |
 | [`quote-message`](/commands/utility/quote-message)                           | Quote a message from a text channel.                                                                  | Utility         |
 | [`role-info`](/commands/utility/role-info)                                   | Get information on a role                                                                             | Utility         |
+| [`roman-numerals`](/commands/utility/roman-numerals)                         | Converts numbers to and from roman numerals.                                                          | Utility         |
 | [`statistics`](/commands/utility/statistics)                                 | Get statistics on Dice.                                                                               | Utility         |
 | [`ban-user`](/commands/moderation/ban-user)                                  | Ban any user from your server.                                                                        | Moderation      |
 | [`bulk-delete-messages`](/commands/moderation/bulk-delete-messages)          | Bulk delete messages in a text channel.                                                               | Moderation      |
@@ -51,6 +52,7 @@ Dice is a [Discord](https://discordapp.com) bot. It has lots of features includi
 | [`bible`](/commands/search/bible)                                            | Get any bible verse from the World English Bible                                                      | Search          |
 | [`crypto-currency-look-up`](/commands/search/crypto-currency-look-up)        | Look up a crypto currency.                                                                            | Search          |
 | [`lmgtfy`](/commands/search/lmgtfy)                                          | Generate a let-me-Google-that-for-you link.                                                           | Search          |
+| [`npm-search`](/commands/search/npm-search)                                  | Get information about an NPM package                                                                  | Search          |
 | [`look-up-stock`](/commands/search/look-up-stock)                            | Get the price of a stock.                                                                             | Search          |
 | [`top-crypto-currencies`](/commands/search/top-crypto-currencies)            | Get prices for the top crypto currencies.                                                             | Search          |
 | [`7-days-to-die-server-status`](/commands/games/7-days-to-die-server-status) | Get information about a 7 Days to Die server.                                                         | Games           |

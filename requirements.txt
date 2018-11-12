@@ -7,7 +7,7 @@ markupsafe==1.1.0
 mkdocs-material==3.0.6
 mkdocs==1.0.4
 pygments==2.2.0
-pymdown-extensions==5.0
+pymdown-extensions==6.0
 pyyaml==3.13
 six==1.11.0
 tornado==5.1.1

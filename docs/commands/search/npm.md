@@ -28,6 +28,6 @@ Get information about an NPM package
 ### Arguments
 
 | Name              | Type    | Required | Minimum | Maximum |
-|-------------------|---------|----------|---------|---------|
-| Package name      | String  | Yes      |         |         |
-| Show full results | True/False | No       |         |         |
+|-------------------|---------|----------|
+| Package name      | String  | Yes      |
+| Show full results | True/False | No       |

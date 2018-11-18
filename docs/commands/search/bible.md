@@ -24,6 +24,6 @@ Get any bible verse from the World English Bible
 
 | Name      | Type    | Required | Minimum |
 |-----------|---------|----------|---------|
-| Book name | Text  | Yes      |         |
+| Book name | Text    | Yes      |         |
 | Chapter   | Integer | Yes      | 1       |
 | Verse     | Integer | Yes      | 1       |

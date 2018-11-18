@@ -29,6 +29,6 @@ Get the price of a stock.
 
 ### Arguments
 
-| Name          | Type   | Required | Minimum | Maximum |
-|---------------|--------|----------|---------|---------|
-| Ticker symbol | Text   | Yes      |         | 5       |
+| Name          | Type   | Required | Maximum |
+|---------------|--------|----------|---------|
+| Ticker symbol | Text   | Yes      | 5       |

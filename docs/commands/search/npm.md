@@ -11,8 +11,8 @@ Get information about an NPM package
 
 ## Aliases
 
-* `npm`
-* `npmsearch`
+- `npm`
+- `npmsearch`
 
 ## Usage
 
@@ -22,12 +22,12 @@ Get information about an NPM package
 
 ### Examples
 
-* `npm-search ms`
-* `npm-search commando-provider-keyv`
+- `npm-search ms`
+- `npm-search commando-provider-keyv`
 
 ### Arguments
 
-| Name              | Type    | Required | Minimum | Maximum |
-|-------------------|---------|----------|
-| Package name      | String  | Yes      |
+| Name              | Type       | Required |
+| ----------------- | ---------- | -------- |
+| Package name      | String     | Yes      |
 | Show full results | True/False | No       |

@@ -28,6 +28,6 @@ The command may be part of a command name or a whole command name. If it isn't s
 
 ### Arguments
 
-| Name    | Type   | Required |
-|---------|--------|----------|
-| Command | Text   | No       |
+| Name    | Type | Required |
+|---------|------|----------|
+| Command | Text | No       |

@@ -11,12 +11,12 @@ Information about Dice.
 
 ## Aliases
 
-* `uptime`
-* `library`
-* `lib`
-* `version`
-* `bot`
-* `botinfo`
+- `uptime`
+- `library`
+- `lib`
+- `version`
+- `bot`
+- `botinfo`
 
 ## Usage
 

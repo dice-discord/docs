@@ -1,7 +1,7 @@
-title: Dice documentation
+title: Dice Documentation
 description: A general purpose utility bot, with an economy, video game stats, moderation tools, and lots of other features.
 
-# Dice <small>documentation</small>
+# Dice Documentation
 
 [![Become a Patron](https://img.shields.io/badge/become%20a-patron-f86754.svg)](https://www.patreon.com/bePatron?u=6109069&redirect_uri=https%3A%2F%2Fdice.js.org%2F&utm_medium=widget) ![Status](https://discordbots.org/api/widget/status/388191157869477888.svg?noavatar=true) ![Servers](https://discordbots.org/api/widget/servers/388191157869477888.svg?noavatar=true) ![Library](https://discordbots.org/api/widget/lib/388191157869477888.svg?noavatar=true) ![Upvotes](https://discordbots.org/api/widget/upvotes/388191157869477888.svg?noavatar=true)
 

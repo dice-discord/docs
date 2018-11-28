@@ -4,7 +4,7 @@
   "name": "dice-docs",
   "repository": "https://github.com/dice-discord/docs.git",
   "scripts": {
-    "lint": "markdownlint -i node_modules/** ."
+    "lint": "markdownlint -i node_modules ."
   },
   "version": "1.0.0",
   "devDependencies": {

@@ -3,7 +3,12 @@ description: A general purpose utility bot, with an economy, video game stats, m
 
 # Dice Documentation
 
-[![Become a Patron](https://img.shields.io/badge/become%20a-patron-f86754.svg)](https://www.patreon.com/bePatron?u=6109069&redirect_uri=https%3A%2F%2Fdice.js.org%2F&utm_medium=widget) ![Status](https://discordbots.org/api/widget/status/388191157869477888.svg?noavatar=true) ![Servers](https://discordbots.org/api/widget/servers/388191157869477888.svg?noavatar=true) ![Library](https://discordbots.org/api/widget/lib/388191157869477888.svg?noavatar=true) ![Upvotes](https://discordbots.org/api/widget/upvotes/388191157869477888.svg?noavatar=true)
+[![Become a Patron](https://img.shields.io/badge/become%20a-patron-f86754.svg)](https://www.patreon.com/bePatron?u=6109069&redirect_uri=https%3A%2F%2Fdice.js.org%2F&utm_medium=widget)
+![Status](https://discordbots.org/api/widget/status/388191157869477888.svg?noavatar=true)
+![Servers](https://discordbots.org/api/widget/servers/388191157869477888.svg?noavatar=true)
+![Library](https://discordbots.org/api/widget/lib/388191157869477888.svg?noavatar=true)
+![Upvotes](https://discordbots.org/api/widget/upvotes/388191157869477888.svg?noavatar=true)
+![Deploys by Netlify](https://img.shields.io/badge/deploys%20by-netlify-00c7b7.svg)
 
 ## [Connect to Discord](https://discordapp.com/oauth2/authorize?client_id=388191157869477888&permissions=8&scope=bot)
 

@@ -27,6 +27,6 @@ If no prefix is provided, the current prefix will be shown. If the prefix is "de
 
 ### Arguments
 
-| Name   | Type   | Required | Minimum | Maximum |
-|--------|--------|----------|---------|---------|
-| Prefix | Text   | No       |         | 15      |
+| Name   | Type   | Required | Maximum |
+|--------|--------|----------|---------|
+| Prefix | Text   | No       | 15      |

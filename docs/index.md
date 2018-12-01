@@ -110,3 +110,11 @@ Dice is a [Discord](https://discordapp.com) bot. It has lots of features includi
 | [`groups`](/commands/commands/groups)                                        | Lists all command groups.                                                                             | Commands        |
 | [`enable`](/commands/commands/enable)                                        | Enables a command or command group.                                                                   | Commands        |
 | [`disable`](/commands/commands/disable)                                      | Disables a command or command group.                                                                  | Commands        |
+
+### Build Status
+
+| Service name  | Status                                                                                                                                                    |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Bot           | [![Build Status](https://travis-ci.com/dice-discord/bot.svg?branch=master)](https://travis-ci.com/dice-discord/bot)                                       |
+| Docs          | [![Build Status](https://travis-ci.com/dice-discord/docs.svg?branch=master)](https://travis-ci.com/dice-discord/docs)                                     |
+| Keyv Provider | [![Build Status](https://travis-ci.com/dice-discord/commando-provider-keyv.svg?branch=master)](https://travis-ci.com/dice-discord/commando-provider-keyv) |

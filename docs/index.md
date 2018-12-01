@@ -35,7 +35,6 @@ Dice is a [Discord](https://discordapp.com) bot. It has lots of features includi
 
 | Name                                                                         | Description                                                                                           | Group           |
 |------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-----------------|
-| [`help`](/commands/utility/help)                                             | Displays a list of available commands, or detailed information for a specified command.               | Utility         |
 | [`prefix`](/commands/utility/prefix)                                         | Shows or sets the command prefix.                                                                     | Utility         |
 | [`ping`](/commands/utility/ping)                                             | Checks the bot's ping to the Discord server.                                                          | Utility         |
 | [`account-age`](/commands/utility/account-age)                               | Check when an account was created.                                                                    | Utility         |
@@ -43,6 +42,7 @@ Dice is a [Discord](https://discordapp.com) bot. It has lots of features includi
 | [`bot-info`](/commands/utility/bot-info)                                     | Information about Dice.                                                                               | Utility         |
 | [`choose`](/commands/utility/choose)                                         | Choose an item from a list you provide.                                                               | Utility         |
 | [`feedback`](/commands/utility/feedback)                                     | Submit bugs and suggestions to the developer.                                                         | Utility         |
+| [`help`](/commands/utility/help)                                             | Displays a list of available commands, or detailed information for a specified command.               | Utility         |
 | [`list-roles`](/commands/utility/list-roles)                                 | List all roles on a server.                                                                           | Utility         |
 | [`quote-message`](/commands/utility/quote-message)                           | Quote a message from a text channel.                                                                  | Utility         |
 | [`role-info`](/commands/utility/role-info)                                   | Get information on a role                                                                             | Utility         |

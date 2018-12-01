@@ -1,5 +1,7 @@
 title: Help
 description: Displays a list of available commands, or detailed information for a specified command.
+path: tree/master/src/commands/util
+source: help.js
 
 # Help
 
@@ -13,7 +15,7 @@ The command may be part of a command name or a whole command name. If it isn't s
 
 ## Aliases
 
-* `commands`
+- `commands`
 
 ## Usage
 
@@ -23,8 +25,8 @@ The command may be part of a command name or a whole command name. If it isn't s
 
 ### Examples
 
-* `help`
-* `help prefix`
+- `help`
+- `help prefix`
 
 ### Arguments
 

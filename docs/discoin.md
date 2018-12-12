@@ -8,7 +8,7 @@ Discoin is a universal system for bots to exchange currencies with. Dice is inte
 !!! warning
     If you farm currencies, specifically, if you operate a server exclusively for earning currencies for Discoin-participating bots,  or you are found intentionally spamming each bot to earn currencies, all participating bot owners will be notified. In other words, you are punished. You risk you or your guild being blacklisted permanently or having your profile deleted. We can and will track down each server and user's activity and are logging all transactions.
 
-## [User guide](https://discoin.gitbooks.io/docs/content/users-guide.html)
+## [User guide](https://discoin.gitbook.io/docs/users-guide)
 
 ## Conversion rates
 

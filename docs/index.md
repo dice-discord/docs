@@ -118,3 +118,4 @@ Dice is a [Discord](https://discordapp.com) bot. It has lots of features includi
 | Bot           | [![Build Status](https://travis-ci.com/dice-discord/bot.svg?branch=master)](https://travis-ci.com/dice-discord/bot)                                       |
 | Docs          | [![Build Status](https://travis-ci.com/dice-discord/docs.svg?branch=master)](https://travis-ci.com/dice-discord/docs)                                     |
 | Keyv Provider | [![Build Status](https://travis-ci.com/dice-discord/commando-provider-keyv.svg?branch=master)](https://travis-ci.com/dice-discord/commando-provider-keyv) |
+| Reported      | [![Build Status](https://travis-ci.com/dice-discord/reported.svg?branch=master)](https://travis-ci.com/dice-discord/reported)                             |

@@ -1,6 +1,6 @@
 title: Notifications
 description: Check or set what notifications for server events are sent to a channel.
-path: tree/master/src/commands/moderation
+path: tree/master/src/commands/mod
 source: notifications.js
 
 # Notifications

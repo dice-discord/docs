@@ -1,6 +1,6 @@
 title: Database ping
 description: Checks the bot's ping to the Discord server and does a database request.
-path: tree/master/src/commands/developer
+path: tree/master/src/commands/dev
 source: database-ping.js
 
 # Database ping
@@ -11,9 +11,9 @@ Checks the bot's ping to the Discord server and does a database request.
 
 ## Aliases
 
-* `db-ping`
-* `databaseping`
-* `dbping`
+- `db-ping`
+- `databaseping`
+- `dbping`
 
 ## Usage
 

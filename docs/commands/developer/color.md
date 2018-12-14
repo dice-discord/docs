@@ -1,6 +1,5 @@
-title: Color
 description: Display and convert a color.
-path: tree/master/src/commands/developer
+path: tree/master/src/commands/dev
 source: color.js
 
 # Color
@@ -15,13 +14,13 @@ Display and convert a color from and to hexadecimal, HSL, RGB, CMYK, and CSS nam
 
 ## Aliases
 
-* `rgb`
-* `cmyk`
-* `hsv`
-* `hsl`
-* `hex`
-* `hexadecimal`
-* `colors`
+- `rgb`
+- `cmyk`
+- `hsv`
+- `hsl`
+- `hex`
+- `hexadecimal`
+- `colors`
 
 ## Usage
 
@@ -31,12 +30,12 @@ Display and convert a color from and to hexadecimal, HSL, RGB, CMYK, and CSS nam
 
 ### Examples
 
-* `color blue`
-* `color #deaded`
-* `color hsl(210,50,50)`
+- `color blue`
+- `color #deaded`
+- `color hsl(210,50,50)`
 
 ### Arguments
 
-| Name  | Type   | Required |
-|-------|--------|----------|
-| Color | Text   | Yes      |
+| Name  | Type   | Required | Minimum | Maximum |
+|-------|--------|----------|---------|---------|
+| Color | String | Yes      |         |         |

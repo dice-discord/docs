@@ -7,7 +7,8 @@ theme:
   palette:
     primary: 'green'
     accent: 'green'
-  logo: 'images/logo.png'
+  logo:
+    icon: 'casino'
   detailedLogo: 'images/dice.png'
   favicon: 'images/favicon.png'
   feature:

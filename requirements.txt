@@ -4,7 +4,7 @@ jinja2==2.10
 livereload==2.6.0
 markdown==3.0.1
 markupsafe==1.1.0
-mkdocs-material==3.2.0
+mkdocs-material==3.3.0
 mkdocs==1.0.4
 pygments==2.3.1
 pymdown-extensions==6.0

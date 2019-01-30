@@ -21,7 +21,7 @@ repo_url: 'https://github.com/dice-discord/docs'
 edit_uri: edit/master/docs
 
 google_analytics:
-  - 'GTM-579CVVW'
+  - 'UA-133415948-1'
   - 'auto'
 
 extra:

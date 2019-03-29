@@ -2,9 +2,9 @@
 click==7.0
 jinja2==2.10
 livereload==2.6.0
-markdown==3.0.1
+markdown==3.1
 markupsafe==1.1.1
-mkdocs-material==4.1.0
+mkdocs-material==4.1.1
 mkdocs==1.0.4
 pygments==2.3.1
 pymdown-extensions==6.0

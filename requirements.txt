@@ -6,7 +6,7 @@ markdown==3.1.1
 markupsafe==1.1.1
 mkdocs-material==4.3.1
 mkdocs==1.0.4
-pygments==2.4.1
+pygments==2.4.2
 pymdown-extensions==6.0
 pyyaml==5.1
 six==1.12.0

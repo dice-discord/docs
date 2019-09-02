@@ -112,6 +112,13 @@
             ],
             "version": "==0.2.1"
         },
+        "pep562": {
+            "hashes": [
+                "sha256:58cb1cc9ee63d93e62b4905a50357618d526d289919814bea1f0da8f53b79395",
+                "sha256:d2a48b178ebf5f8dd31709cc26a19808ef794561fa2fe50ea01ea2bad4d667ef"
+            ],
+            "version": "==1.0"
+        },
         "pygments": {
             "hashes": [
                 "sha256:71e430bc85c88a430f000ac1d9b331d2407f681d6f6aec95e8bcfbc3df5b0127",
@@ -122,11 +129,11 @@
         },
         "pymdown-extensions": {
             "hashes": [
-                "sha256:25b0a7967fa697b5035e23340a48594e3e93acb10b06d74574218ace3347d1df",
-                "sha256:6cf0cf36b5a03b291ace22dc2f320f4789ce56fbdb6635a3be5fadbf5d7694dd"
+                "sha256:24c1a0afbae101c4e2b2675ff4dd936470a90133f93398b9cbe0c855e2d2ec10",
+                "sha256:960486dea995f1759dfd517aa140b3d851cd7b44d4c48d276fd2c74fc4e1bce9"
             ],
             "index": "pypi",
-            "version": "==6.0"
+            "version": "==6.1"
         },
         "pyyaml": {
             "hashes": [

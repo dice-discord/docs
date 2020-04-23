@@ -7,7 +7,7 @@ livereload==2.6.1
 markdown==3.2.1
 markupsafe==1.1.1
 mkdocs-material==4.6.3
-mkdocs-minify-plugin==0.2.1
+mkdocs-minify-plugin==0.3.0
 mkdocs==1.1
 pep562==1.0
 pygments==2.5.2

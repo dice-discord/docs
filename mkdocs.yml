@@ -14,7 +14,7 @@ theme:
   feature:
     tabs: true
 
-copyright: 'Copyright 2018 <a href="https://jonahsnider.ninja">Jonah Snider</a>'
+copyright: 'Copyright 2020 <a href="https://jonah.pw">Jonah Snider</a>'
 
 repo_name: 'dice-discord/docs'
 repo_url: 'https://github.com/dice-discord/docs'

@@ -11,7 +11,7 @@ mkdocs-minify-plugin==0.2.1
 mkdocs==1.0.4
 pep562==1.0
 pygments==2.5.2
-pymdown-extensions==6.2.1
+pymdown-extensions==7.1
 pyyaml==5.2
 six==1.13.0
 tornado==6.0.3

@@ -1,5 +1,5 @@
 -i https://pypi.org/simple/
-click==7.1.1
+click==7.1.2
 htmlmin==0.1.12
 jinja2==2.11.2
 jsmin==2.2.2

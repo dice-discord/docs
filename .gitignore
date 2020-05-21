@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/node,python
 # Edit at https://www.gitignore.io/?templates=node,python
 
@@ -209,3 +208,9 @@ pyvenv.cfg
 pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/node,python
+
+# Yarn 2
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*

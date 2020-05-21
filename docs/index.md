@@ -10,7 +10,7 @@ description: A general purpose utility bot, with an economy, video game stats, m
 ![Upvotes](https://discordbots.org/api/widget/upvotes/388191157869477888.svg?noavatar=true)
 ![Deploys by Netlify](https://img.shields.io/badge/deploys%20by-netlify-00c7b7.svg)
 
-## [Connect to Discord](https://discordapp.com/oauth2/authorize?client_id=388191157869477888&permissions=8&scope=bot)
+## [Connect to Discord](https://discord.com/oauth2/authorize?client_id=388191157869477888&permissions=8&scope=bot)
 
 ## About
 
@@ -20,7 +20,7 @@ This is the documentation for Dice. It serves as a reference for all the command
 
 ### What is Dice
 
-Dice is a [Discord](https://discordapp.com) bot. It has lots of features including moderation, game stats, games, an economy, and many others.
+Dice is a [Discord](https://discord.com) bot. It has lots of features including moderation, game stats, games, an economy, and many others.
 
 ### Features
 

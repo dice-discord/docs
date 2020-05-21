@@ -5,12 +5,9 @@ description = ""
 authors = ["Jonah Snider <jonah@jonah.pw>"]
 license = "Apache-2.0"
 
-[tool.poetry.scripts]
-docs = "mkdocs --version"
-
 [tool.poetry.dependencies]
 python = "^3.6"
-mkdocs-material = "4.6.3"
+mkdocs-material = "^4.6.3"
 mkdocs = "^1.1.2"
 pygments = "^2.6.1"
 pymdown-extensions = "^7.1"

@@ -20,10 +20,5 @@
 
 [[redirects]]
   from = "/vote"
-  to = "https://discordbots.org/bot/388191157869477888/vote"
-  status = 301
-
-  [[redirects]]
-  from = "/dblwebhook"
-  to = "178.128.145.207:5000/dblwebhook"
+  to = "https://top.gg/bot/388191157869477888/vote"
   status = 301

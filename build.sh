@@ -21,6 +21,7 @@ echo "Building documentation"
 cd ..
 poetry run mkdocs build
 
+# Restore the config that enables Yarn 2
 mv ./.yarnrc.yml.tmp ./.yarnrc.yml
 
 echo Generating service worker

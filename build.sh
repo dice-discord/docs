@@ -1,16 +1,9 @@
 #!/bin/bash
 
-if [ -z "$NETLIFY" ]
-then
-  echo "Running Netlify specific setup"
-  restore_home_cache ".cache" "pip cache"
-  restore_cwd_cache '.venv' 'python virtualenv'
-  pip install -q poetry
-  poetry config settings.virtualenvs.in-project true
-  poetry install
-else
-  echo "Not running in Netlify"
-fi
+echo "Running Netlify setup, cancel now if you are running locally"
+pip install -q poetry
+poetry config settings.virtualenvs.in-project true
+poetry install
 
 echo "Cloning bot repository"
 git clone https://github.com/dice-discord/bot.git --depth 1

@@ -4,7 +4,7 @@ if [ -z "$NETLIFY" ]
   echo "Running Netlify specific setup"
   restore_home_cache ".cache" "pip cache"
   restore_cwd_cache '.venv' 'python virtualenv'
-  pip3 install -q poetry
+  pip install -q poetry
   poetry config settings.virtualenvs.in-project true
   poetry install
 then

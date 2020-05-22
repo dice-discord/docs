@@ -1,13 +1,14 @@
 #!/bin/bash
 
 if [ -z "$NETLIFY" ]
+then
   echo "Running Netlify specific setup"
   restore_home_cache ".cache" "pip cache"
   restore_cwd_cache '.venv' 'python virtualenv'
   pip install -q poetry
   poetry config settings.virtualenvs.in-project true
   poetry install
-then
+else
   echo "Not running in Netlify"
 fi
 

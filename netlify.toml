@@ -1,3 +1,15 @@
+[build]
+  base = "."
+  publish = "site"
+  command = "bash build.sh"
+
+[build.environment]
+  # We need this variable to be defined for Prisma to generate the client library post-install
+  POSTGRES_URI = "postgres://username:password@localhost:5432/db"
+
+[build.processing.html]
+  pretty_urls = true
+
 [[redirects]]
   from = "/invite"
   to = "https://discord.com/oauth2/authorize?client_id=388191157869477888&permissions=8&scope=bot"
@@ -20,10 +32,5 @@
 
 [[redirects]]
   from = "/vote"
-  to = "https://discordbots.org/bot/388191157869477888/vote"
-  status = 301
-
-  [[redirects]]
-  from = "/dblwebhook"
-  to = "178.128.145.207:5000/dblwebhook"
+  to = "https://top.gg/bot/388191157869477888/vote"
   status = 301

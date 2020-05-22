@@ -1,50 +1,77 @@
+# Project information
 site_name: Dice
+site_description: A Material Design theme for MkDocs
+site_author: Jonah Snider
 site_url: https://dice.js.org
 
+# Repository
+repo_name: dice-discord/docs
+repo_url: https://github.com/dice-discord/docs
+
+# Call to action button in the upper right of the page
+cta_text: Connect to Discord
+cta_url: https://dice.js.org/invite
+
+# Copyright
+copyright: Copyright 2020 <a href="https://jonah.pw">Jonah Snider</a>
+
+# Configuration
 theme:
-  name: 'material'
-  custom_dir: theme_modifications
+  name: material
+  language: en
+  custom_dir: overrides
   palette:
-    primary: 'green'
-    accent: 'green'
-  logo:
-    icon: 'casino'
-  detailedLogo: 'images/dice.png'
-  favicon: 'images/favicon.png'
-  feature:
+    scheme: slate
+    primary: green
+    accent: green
+  font:
+    text: Roboto
+    code: Fira Code
+  icon:
+    logo: casino
+    cta: fontawesome/brands/discord
+    repo: fontawesome/brands/github
+  features:
+    - tabs
+    - instant
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dice-discord
+    - icon: fontawesome/brands/discord
+      link: https://dice.js.org/server
+    - icon: fontawesome/brands/patreon
+      link: https://patreon.com/pizzafox
+    - icon: fontawesome/solid/plus
+      link: https://dice.js.org/invite
+  manifest: manifest.webmanifest
+  docs_repo_url: https://github.com/dice-discord/bot
+  features:
     tabs: true
 
-copyright: 'Copyright 2020 <a href="https://jonah.pw">Jonah Snider</a>'
+plugins:
+  - search:
+      prebuild_index: true
+  # - git-revision-date-localized
+  - minify:
+      minify_html: true
 
-repo_name: 'dice-discord/docs'
-repo_url: 'https://github.com/dice-discord/docs'
-edit_uri: edit/master/docs
-
+# Google Analytics
 google_analytics:
-  - 'UA-133415948-1'
-  - 'auto'
+  - UA-133415948-1
+  - auto
 
-extra:
-  discord:
-    invite: 'https://dice.js.org/invite'
-  social:
-    - type: 'github'
-      link: 'https://github.com/dice-discord'
-    - type: 'money'
-      link: 'https://www.patreon.com/pizzafox'
-
+# Extensions
 markdown_extensions:
   - admonition
-
   - codehilite:
       guess_lang: false
-
   - toc:
       permalink: true
   - footnotes
-
   - meta
-
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -52,7 +79,8 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
@@ -60,4 +88,5 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed
   - pymdownx.tilde

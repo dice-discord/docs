@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "docs-new"
+version = "0.1.0"
+description = ""
+authors = ["Jonah Snider <jonah@jonah.pw>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+mkdocs-material = "^5.2.0"
+mkdocs-minify-plugin = "^0.3.0"
+mkdocs-git-revision-date-localized-plugin = "^0.5.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

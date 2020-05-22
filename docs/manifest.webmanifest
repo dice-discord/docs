@@ -1,0 +1,11 @@
+{
+  "background_color": "#2E303F",
+  "description": "Documentation for the Dice bot on Discord",
+  "display": "standalone",
+  "lang": "en-US",
+  "name": "Dice Documentation",
+  "orientation": "any",
+  "short_name": "Dice",
+  "start_url": "/",
+  "theme_color": "#4caf50"
+}

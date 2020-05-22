@@ -1,13 +1,9 @@
 {
-  "author": "Jonah Snider <me@jonahsnider.ninja> (https://jonahsnider.ninja)",
-  "license": "Apache-2.0",
-  "name": "dice-docs",
-  "repository": "https://github.com/dice-discord/docs.git",
-  "scripts": {
-    "lint": "markdownlint -i node_modules ."
-  },
-  "version": "1.0.0",
+  "name": "docs-new",
   "devDependencies": {
-    "markdownlint-cli": "0.22.0"
+    "prettier": "^2.0.5"
+  },
+  "scripts": {
+    "style": "prettier --check ."
   }
 }

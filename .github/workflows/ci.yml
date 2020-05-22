@@ -25,8 +25,10 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('**/poetry.lock') }}
           restore-keys: |
             ${{ runner.os }}-pip-
-      - name: Install MkDocs and Poetry
-        run: pip install --user poetry mkdocs
+      - name: Install MkDocs
+        run: pip install mkdocs
+      - name: Install Poetry
+        run: curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3
       - name: Install dependencies with Poetry
         run: poetry install
       - name: Build documentation

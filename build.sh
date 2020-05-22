@@ -13,8 +13,4 @@ echo "Generating command documentation"
 yarn docs
 cp -r tsc_output/command_docs ../docs/commands
 echo "Building documentation"
-if [[ -z "$NETLIFY" ]]; then
-  echo "Installing mkdocs with pip"
-  pip install mkdocs
-fi
 mkdocs build

@@ -11,91 +11,30 @@ jobs:
     steps:
       - name: Checkout git repository
         uses: actions/checkout@v2
-      - name: Get yarn cache
-        id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache dependencies
+      - name: Get Poetry cache
         uses: actions/cache@v1
         with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          path: ~/.cache/pypoetry/cache/
+          key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install dependencies with Yarn
-        run: yarn install
-        env:
-          POSTGRES_URI: ${{ secrets.POSTGRES_URI }}
-      - name: Compile TypeScript
-        run: yarn run build
-      - name: Upload compiled TypeScript
+            ${{ runner.os }}-poetry-
+      - name: Get pip cache
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/poetry.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Install MkDocs and Poetry
+        run: pip install --user poetry mkdocs
+      - name: Install dependencies with Poetry
+        run: poetry install
+      - name: Build documentation
+        run: ./build.sh
+      - name: Upload built site
         uses: actions/upload-artifact@v1
         with:
-          name: tsc_output
-          path: tsc_output
-  lint:
-    name: Lint source
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout git repository
-        uses: actions/checkout@v2
-      - name: Get yarn cache
-        id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache dependencies
-        uses: actions/cache@v1
-        with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install dependencies with Yarn
-        run: yarn install
-        env:
-          POSTGRES_URI: ${{ secrets.POSTGRES_URI }}
-      - name: Lint with XO
-        run: yarn run xo
-  unit-test:
-    name: Unit tests
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout git repository
-        uses: actions/checkout@v2
-      - name: Get yarn cache
-        id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache dependencies
-        uses: actions/cache@v1
-        with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install dependencies with Yarn
-        run: yarn install
-        env:
-          POSTGRES_URI: ${{ secrets.POSTGRES_URI }}
-      - name: Run tests
-        run: yarn test --coverage
-      - name: Upload coverage
-        uses: codecov/codecov-action@v1
-        with:
-          fail_ci_if_error: true
-  lint-dockerfile:
-    name: Lint Dockerfile
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout git repository
-        uses: actions/checkout@v2
-      - name: Lint Dockerfile
-        uses: brpaz/hadolint-action@v1.1.0
-        with:
-          dockerfile: 'Dockerfile'
+          name: site
+          path: site
   style:
     name: Check style
 
@@ -106,7 +45,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Get yarn cache
         id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
@@ -116,105 +55,5 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install dependencies with Yarn
         run: yarn install
-        env:
-          POSTGRES_URI: ${{ secrets.POSTGRES_URI }}
       - name: Check style with Prettier
         run: yarn run style
-  style-prisma:
-    name: Check style of Prisma schema
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout git repository
-        uses: actions/checkout@v2
-      - name: Get yarn cache
-        id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache dependencies
-        uses: actions/cache@v1
-        with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install dependencies with Yarn
-        run: yarn install
-        env:
-          POSTGRES_URI: ${{ secrets.POSTGRES_URI }}
-      - name: Check style with Prisma CLI
-        run: yarn run prisma format && git diff --exit-code -s schema.prisma
-  deploy:
-    name: Deploy
-
-    runs-on: ubuntu-latest
-
-    # Don't run this job if we aren't on master branch
-    # `semantic-release` will do this automatically, but this saves us the time of building the image prior to that
-    if: ${{ github.ref  == 'refs/heads/master' }}
-
-    needs: [build, lint, lint-dockerfile, e2e-test, unit-test]
-
-    steps:
-      - name: Checkout git repository
-        uses: actions/checkout@v2
-      - name: Get yarn cache
-        id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache dependencies
-        uses: actions/cache@v1
-        with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install dependencies with Yarn
-        run: yarn install
-        env:
-          POSTGRES_URI: ${{ secrets.POSTGRES_URI }}
-      - name: Deploy
-        run: yarn run deploy
-        env:
-          DOCKER_USERNAME: dicediscordbot
-          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Sentry release semantic-release plugin
-          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
-          SENTRY_PROJECT: bot
-          SENTRY_ORG: dice
-  e2e-test:
-    name: E2E test
-
-    runs-on: ubuntu-latest
-
-    timeout-minutes: 6
-
-    if: ${{ github.ref  == 'refs/heads/master' }}
-
-    steps:
-      - name: Checkout git repository
-        uses: actions/checkout@v2
-      - name: Get yarn cache
-        id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache dependencies
-        uses: actions/cache@v1
-        with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install dependencies with Yarn
-        run: yarn install
-        env:
-          POSTGRES_URI: ${{ secrets.POSTGRES_URI }}
-      - name: Compile TypeScript
-        run: yarn run build
-      - name: Start lite client
-        run: node tsc_output/src/lite.js
-        env:
-          POSTGRES_URI: ${{ secrets.POSTGRES_URI }}
-          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
-          SQREEN_TOKEN: ${{ secrets.SQREEN_TOKEN }}
-          SQREEN_APP_NAME: Dice
-          NODE_ENV: development

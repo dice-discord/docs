@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Cloning bot repository"
 git clone https://github.com/dice-discord/bot.git --depth 1
 cd bot
@@ -11,4 +13,8 @@ echo "Generating command documentation"
 yarn docs
 cp -r tsc_output/command_docs ../docs/commands
 echo "Building documentation"
+if [[ -z "$NETLIFY" ]]; then
+  echo "Installing mkdocs with pip"
+  pip install mkdocs
+fi
 mkdocs build

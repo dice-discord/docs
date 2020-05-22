@@ -30,6 +30,8 @@ jobs:
         run: poetry install
       - name: Build documentation
         run: ./build.sh
+        env:
+          POSTGRES_URI: postgres://username:password@localhost:5432/db
       - name: Upload built site
         uses: actions/upload-artifact@v1
         with:

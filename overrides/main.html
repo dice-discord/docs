@@ -1,14 +1,12 @@
-{% extends "base.html" %}
-
-{% block libs %}
-  <!-- From https://developers.google.com/web/tools/workbox/guides/get-started#create_and_register_a_service_worker_file -->
-  <script>
-    // Check that service workers are supported
-    if ("serviceWorker" in navigator) {
-      // Use the window load event to keep the page load performant
-      window.addEventListener("load", () =>
-        navigator.serviceWorker.register("/sw.js")
-      );
-    }
-  </script>
+{% extends "base.html" %} {% block libs %}
+<!-- From https://developers.google.com/web/tools/workbox/guides/get-started#create_and_register_a_service_worker_file -->
+<script>
+  // Check that service workers are supported
+  if ("serviceWorker" in navigator) {
+    // Use the window load event to keep the page load performant
+    window.addEventListener("load", () =>
+      navigator.serviceWorker.register("/sw.js")
+    );
+  }
+</script>
 {% endblock %}

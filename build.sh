@@ -22,3 +22,6 @@ cd ..
 poetry run mkdocs build
 
 mv ./.yarnrc.yml.tmp ./.yarnrc.yml
+
+echo Generating service worker
+yarn run sw:gen

@@ -25,6 +25,6 @@ yarn docs
 cp -r tsc_output/command_docs ../docs/commands
 echo "Building documentation"
 cd ..
-potry run mkdocs build
+poetry run mkdocs build
 
 mv ./.yarnrc.yml.tmp ./.yarnrc.yml

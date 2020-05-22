@@ -1,5 +1,16 @@
 #!/bin/bash
 
+if [ -z "$NETLIFY" ]
+  echo "Running Netlify specific setup"
+  restore_home_cache ".cache" "pip cache"
+  restore_cwd_cache '.venv' 'python virtualenv'
+  pip3 install -q poetry
+  poetry config settings.virtualenvs.in-project true
+  poetry install
+then
+  echo "Not running in Netlify"
+fi
+
 echo "Cloning bot repository"
 git clone https://github.com/dice-discord/bot.git --depth 1
 cd bot
@@ -14,4 +25,6 @@ yarn docs
 cp -r tsc_output/command_docs ../docs/commands
 echo "Building documentation"
 cd ..
-mkdocs build
+potry run mkdocs build
+
+mv ./.yarnrc.yml.tmp ./.yarnrc.yml

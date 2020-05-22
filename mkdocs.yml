@@ -56,6 +56,7 @@ plugins:
   # - git-revision-date-localized
   - minify:
       minify_html: true
+      minify_js: true
 
 # Google Analytics
 google_analytics:

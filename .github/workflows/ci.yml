@@ -19,6 +19,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-poetry-
       - name: Get pip cache
+        uses: actions/cache@v1
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/poetry.lock') }}

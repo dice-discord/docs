@@ -2,6 +2,8 @@ echo "Cloning bot repository"
 git clone https://github.com/dice-discord/bot.git --depth 1
 cd bot
 echo "Installing bot dependencies"
+# Disable Yarn 2 since the bot repo hasn't migrated
+mv ../.yarnrc.yml ../.yarnrc.yml.tmp
 yarn
 echo "Building bot repository"
 yarn build

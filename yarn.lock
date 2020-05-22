@@ -8,11 +8,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docs-new@workspace:."
   dependencies:
-    prettier: ^2.0.5
+    prettier: 2.0.5
   languageName: unknown
   linkType: soft
 
-"prettier@npm:^2.0.5":
+"prettier@npm:2.0.5":
   version: 2.0.5
   resolution: "prettier@npm:2.0.5"
   bin:

@@ -53,6 +53,8 @@ extra:
 plugins:
   - search:
       prebuild_index: true
+      lang:
+        - en
   # - git-revision-date-localized
   - minify:
       minify_html: true

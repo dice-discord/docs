@@ -8,10 +8,6 @@ site_url: https://dice.js.org
 repo_name: dice-discord/docs
 repo_url: https://github.com/dice-discord/docs
 
-# Call to action button in the upper right of the page
-cta_text: Connect to Discord
-cta_url: https://dice.js.org/invite
-
 # Copyright
 copyright: Copyright 2020 <a href="https://jonah.pw">Jonah Snider</a>
 
@@ -50,6 +46,9 @@ extra:
   docs_repo_url: https://github.com/dice-discord/bot
   features:
     tabs: true
+  # Call to action button in the upper right of the page
+  cta_text: Connect to Discord
+  cta_url: https://dice.js.org/invite
 
 plugins:
   - search:

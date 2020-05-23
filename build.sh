@@ -6,6 +6,7 @@ poetry config settings.virtualenvs.in-project true
 poetry install
 
 echo "Cloning bot repository"
+rm -rf bot
 git clone https://github.com/dice-discord/bot.git --depth 1
 cd bot
 echo "Installing bot dependencies"

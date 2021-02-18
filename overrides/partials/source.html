@@ -1,5 +1,6 @@
 {% import "partials/language.html" as lang with context %}
 
+{% if config.theme.icon.cta %}
 <!-- CTA button -->
 <a
   href="{{ config.extra.cta_url }}"
@@ -7,10 +8,11 @@
   class="md-source"
 >
   <div class="md-source__icon md-icon">
-    {% set icon = config.theme.icon.cta or "fontawesome/solid/plus" %} {%
+    {% set icon = config.theme.icon.cta %} {%
     include ".icons/" ~ icon ~ ".svg" %}
   </div>
   <div class="md-source__repository">
     {{ config.extra.cta_text }}
   </div>
 </a>
+{% endif %}

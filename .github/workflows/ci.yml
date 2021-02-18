@@ -36,7 +36,7 @@ jobs:
         env:
           POSTGRES_URI: postgres://username:password@localhost:5432/db
       - name: Upload built site
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: site
           path: site

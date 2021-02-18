@@ -47,8 +47,8 @@ extra:
   features:
     tabs: true
   # Call to action button in the upper right of the page
-  cta_text: Connect to Discord
-  cta_url: https://dice.js.org/invite
+  # cta_text: Connect to Discord
+  # cta_url: https://dice.js.org/invite
 
 plugins:
   - search:

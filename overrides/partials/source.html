@@ -11,8 +11,6 @@
     {% set icon = config.theme.icon.cta %} {%
     include ".icons/" ~ icon ~ ".svg" %}
   </div>
-  <div class="md-source__repository">
-    {{ config.extra.cta_text }}
-  </div>
+  <div class="md-source__repository">{{ config.extra.cta_text }}</div>
 </a>
 {% endif %}

@@ -22,12 +22,12 @@
 
 [[redirects]]
   from = "/patreon"
-  to = "https://www.patreon.com/pizzafox"
+  to = "https://www.patreon.com/jonahsnider"
   status = 301
 
 [[redirects]]
   from = "/donate"
-  to = "https://www.patreon.com/pizzafox"
+  to = "https://www.patreon.com/jonahsnider"
   status = 301
 
 [[redirects]]

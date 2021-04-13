@@ -1,29 +1,25 @@
 ==================================================================
-https://keybase.io/pizzafox
+https://keybase.io/jonahsnider
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of https://dice.js.org
-  * I am pizzafox (https://keybase.io/pizzafox) on keybase.
-  * I have a public key ASCTnO1QuamE81UnbNv3AMqXjqUCevBF4-iAT5h0UrXh6wo
+  * I am jonahsnider (https://keybase.io/jonahsnider) on keybase.
+  * I have a public key with fingerprint E3D7 8B8F 4596 CD63 5F30  4439 E85C E1D3 1913 2409
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "012078d8478babc3fbf624787afc6ae06c180e8bfbfa9a5a3b2e56a7beac7b030bf80a",
+      "eldest_kid": "010125bea4ef2c8046840f48e0a54c87d7547fb439088e149a439d7616f177ebea9b0a",
+      "fingerprint": "e3d78b8f4596cd635f304439e85ce1d319132409",
       "host": "keybase.io",
-      "kid": "0120939ced50b9a984f355276cdbf700ca978ea5027af045e3e8804f987452b5e1eb0a",
-      "uid": "45f53f29517c3f06292153689754c219",
-      "username": "pizzafox"
-    },
-    "merkle_root": {
-      "ctime": 1522550592,
-      "hash": "7f549c73177379d879cc48aac06594eb8e71046f8f4a0d6825f10082add3f4ad221606abe8f7b167ffa911ccb1d265708a67ae7af920f89762847b52e107f9dd",
-      "hash_meta": "3a86cc1c4dfa9908bbd58fabf6a9a27843ccc009b796c127a390ce08f05f1aef",
-      "seqno": 2318155
+      "key_id": "e85ce1d319132409",
+      "kid": "010125bea4ef2c8046840f48e0a54c87d7547fb439088e149a439d7616f177ebea9b0a",
+      "uid": "d087a62d4fc3ca345a0a666cc93bc019",
+      "username": "jonahsnider"
     },
     "service": {
       "hostname": "dice.js.org",
@@ -32,24 +28,47 @@ To do so, I am signing this object:
     "type": "web_service_binding",
     "version": 1
   },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "1.0.45"
-  },
-  "ctime": 1522550668,
-  "expire_in": 504576000,
-  "prev": "2b51247864f2e224c462726114eb63abc3469bbac8b4be932a06a5eac1982f90",
-  "seqno": 62,
+  "ctime": 1618350005,
+  "expire_in": 157680000,
+  "prev": "915fdcc040c1b6f3936c998b617c38f0ee876e19a56428a781b94fb4eadcdd02",
+  "seqno": 10,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgk5ztULmphPNVJ2zb9wDKl46lAnrwRePogE+YdFK14esKp3BheWxvYWTFA0R7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNzhkODQ3OGJhYmMzZmJmNjI0Nzg3YWZjNmFlMDZjMTgwZThiZmJmYTlhNWEzYjJlNTZhN2JlYWM3YjAzMGJmODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTM5Y2VkNTBiOWE5ODRmMzU1Mjc2Y2RiZjcwMGNhOTc4ZWE1MDI3YWYwNDVlM2U4ODA0Zjk4NzQ1MmI1ZTFlYjBhIiwidWlkIjoiNDVmNTNmMjk1MTdjM2YwNjI5MjE1MzY4OTc1NGMyMTkiLCJ1c2VybmFtZSI6InBpenphZm94In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTIyNTUwNTkyLCJoYXNoIjoiN2Y1NDljNzMxNzczNzlkODc5Y2M0OGFhYzA2NTk0ZWI4ZTcxMDQ2ZjhmNGEwZDY4MjVmMTAwODJhZGQzZjRhZDIyMTYwNmFiZThmN2IxNjdmZmE5MTFjY2IxZDI2NTcwOGE2N2FlN2FmOTIwZjg5NzYyODQ3YjUyZTEwN2Y5ZGQiLCJoYXNoX21ldGEiOiIzYTg2Y2MxYzRkZmE5OTA4YmJkNThmYWJmNmE5YTI3ODQzY2NjMDA5Yjc5NmMxMjdhMzkwY2UwOGYwNWYxYWVmIiwic2Vxbm8iOjIzMTgxNTV9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZGljZS5qcy5vcmciLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40NSJ9LCJjdGltZSI6MTUyMjU1MDY2OCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiIyYjUxMjQ3ODY0ZjJlMjI0YzQ2MjcyNjExNGViNjNhYmMzNDY5YmJhYzhiNGJlOTMyYTA2YTVlYWMxOTgyZjkwIiwic2Vxbm8iOjYyLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQN1MrcfAGf3ficxnF6mtw1O1Qqs5YBEaq2Z1hBxwOYG4LHt432J2y1LGuZxjXRGN+K8LNhoZLIS1rl6GMfiTkwCoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCsklrdHexLlubEZ6X81mHkRnHzIr8nOdToOXaYHgU57KN0YWfNAgKndmVyc2lvbgE=
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNEAnicrZJ/TJR1HMfvTnC7szoRVzBD4kkSDOj5/QMzw6QAWauxQhbsen58n7vn
+OO8577njxIOZO1ygm5NmJC6VH7oSExmLJsWPYCwUT4PpVsQFAwIpHCJZQazoe8z+
+68/++n6/n8/7/fr82Lfv8TU6k36mcPx2bPQWo/5Gz2mv7t0Sc5sfEVSpFEn3I8Vg
+9QAOCWgeS7EiIekIiqEYTgmAJ4GMiyxK0iyJyiQLUJ4iRZaRGIpkZIEkOJRlAUZy
+PLxKDI3RMsYwABo5AeWRFERWnFbgdrkVpwdiASExrMDKJMXRokQTlEygJHQClhIB
+JhEYhxE4iXLQaFO1sAM2J/AaSFNUGIMPy2p7/6H/n/v2ruIklGV4GpdIWSREniAp
+HuVpmhZFjhBEFAvX9WrA7eT3Aai2q07epjkVCbiR8hQEJkoUEYR3Gx7mkUiCoTS7
+lqa6rdDtcqseVVQdMGHzeFxaetjoKXWFlT4gWB4xLILilOAmoaMEuDVFdSLpGFSK
+HiUMxWiMJSgURakUBBxwKW5gUcIKiqFZGEXDdUAJRHIYJUuiiJKoiAm0THAELXIc
+K9AYIxKsjALAMjTAOJ6iSZzlGRYTOBKuC/CSKEkojoSn2u9UIRtCPbwVMjXF6uQ9
+XjdAynt7CiN0epNubaQh/MV0JuP6fz9eYoF5xXHJvrbtLP4SlzGZcci4kti//vn6
+rho607WjLWHui9660rnsHce2Vb9wsztid3/d20c345o3sEg2ztcHB1XDmV/G6Pb4
+O1ebg31DEQZl5J1brcVxE8bC1NDmP5+s872x4RtS6/z8vfTllb3sMpaDux7bae3+
+eHT69aIJ34edgZzFrcEjhmr/+DQ+mF0xMDyaPLVYa2zclzwZq36/v6DpclreSPnQ
+xO4yXWfyQftd/3CVWEH13IhYYF6JOUxeb/8qZliNeVZ/ImpdcbDufPfQd425aZXT
+BfZD/mca9L5QUDD/db662v/0D5/eqmrIc2yLzTuc0xUfN3burvGJqeG8SyHfr19e
+2WhKHBumHVtXOi+GLpgrA3t6f6vN9xqid9lbrgX+ELf8OJMUtSlyyXa5vX8+K7vf
+VX8fbcz8fWCxwZ58MvrUZ31vLSycrX81ubUwIWF7dqCsqGJpU9lofnT1ss0ynZT0
+3GgoJaumqeN2a6pNuDfe2VPz09TA13+nzsaZ7g+eKr6gx2f3xJ+ImztQ2ZV45J53
+nomm5MzJinVRwesfNJ+OiLx4U8rSm8+NHCs8utHe4dl1x3Ft7mjgxQd8+cnQJ5bm
+n/PN4kwwK/J4x1Iw1zroMxz0fvuwpS94NffhgzUvt7z/VFORO5Bv2rmdeBM/fiZj
+9jV6LLGFrvpoIqf2yt4BSdnwD8CrwtI=
+=CDHv
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/pizzafox
+View my publicly-auditable identity here: https://keybase.io/jonahsnider
 
 ==================================================================

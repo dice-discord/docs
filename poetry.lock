@@ -208,7 +208,7 @@ mkdocs-material = ">=5.0.0"
 
 [[package]]
 name = "mkdocs-minify-plugin"
-version = "0.3.0"
+version = "0.4.0"
 description = "An MkDocs plugin to minify HTML and/or JS files prior to being written to disk"
 category = "main"
 optional = false
@@ -334,7 +334,7 @@ testing = ["jaraco.itertools", "func-timeout"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6"
-content-hash = "51881cbb12b41b3de6a197e095c6169528f4b71ef915e7bbea4f0b1fba639b05"
+content-hash = "eeda321b232cc77d5a3daf93a4b4fbeeff099b148d19442862974d06c747e54c"
 
 [metadata.files]
 babel = [
@@ -457,8 +457,8 @@ mkdocs-material-extensions = [
     {file = "mkdocs_material_extensions-1.0-py3-none-any.whl", hash = "sha256:09569c3694b5acc1e8334c9730e52b4bcde65fc9d613cc20e49af131ef1a9ca0"},
 ]
 mkdocs-minify-plugin = [
-    {file = "mkdocs-minify-plugin-0.3.0.tar.gz", hash = "sha256:06fecd8ddb9cb90f30bcee2d94c3d4b46a090f403d7ff0edff089a435906c4ee"},
-    {file = "mkdocs_minify_plugin-0.3.0-py2-none-any.whl", hash = "sha256:9bac96276b1681debb3eb2cf5bae972586b4c1138e8d78ea63a984ea6276563d"},
+    {file = "mkdocs-minify-plugin-0.4.0.tar.gz", hash = "sha256:b975ab8e72b9aeadaa8ba2e2901be401475b280a1d8f1789653d66734ea7d8cc"},
+    {file = "mkdocs_minify_plugin-0.4.0-py2-none-any.whl", hash = "sha256:8893aef8410458a2c1d6454342fc6d1db30439d60f7850c144803932262fd89c"},
 ]
 nltk = [
     {file = "nltk-3.5.zip", hash = "sha256:845365449cd8c5f9731f7cb9f8bd6fd0767553b9d53af9eb1b3abf7700936b35"},

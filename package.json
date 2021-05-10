@@ -1,7 +1,7 @@
 {
   "name": "docs",
   "devDependencies": {
-    "prettier": "2.2.1",
+    "prettier": "2.3.0",
     "workbox-cli": "6.1.5"
   },
   "scripts": {

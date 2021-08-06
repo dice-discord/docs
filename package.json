@@ -2,7 +2,7 @@
   "name": "docs",
   "devDependencies": {
     "prettier": "2.3.2",
-    "workbox-cli": "6.1.5"
+    "workbox-cli": "6.2.0"
   },
   "scripts": {
     "style": "prettier --check .",

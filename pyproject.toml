@@ -6,7 +6,7 @@ authors = ["Jonah Snider <jonah@jonah.pw>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-mkdocs-material = "^5.2.0"
+mkdocs-material = "^8.0.0"
 mkdocs-minify-plugin = "^0.3.0"
 mkdocs-git-revision-date-localized-plugin = "^0.10.0"
 

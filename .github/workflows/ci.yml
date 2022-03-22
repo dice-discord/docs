@@ -12,14 +12,14 @@ jobs:
       - name: Checkout git repository
         uses: actions/checkout@v3
       - name: Get Poetry cache
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ~/.cache/pypoetry/cache/
           key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
           restore-keys: |
             ${{ runner.os }}-poetry-
       - name: Get pip cache
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/poetry.lock') }}
@@ -52,7 +52,7 @@ jobs:
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
       - name: Cache dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ${{ steps.yarn-cache.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
